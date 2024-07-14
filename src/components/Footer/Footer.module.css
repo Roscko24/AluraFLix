@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1em 10em;
+    background-color: #000000;
+    border-top: 4px solid blue;
+}
+
+
+.logoContainer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+

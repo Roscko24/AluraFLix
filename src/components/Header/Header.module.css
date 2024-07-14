@@ -1,0 +1,73 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 2.5em;
+    background-color: #000000;
+    border-bottom: 4px solid blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logoContainer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecera img {
+    align-self: start;
+}
+
+.cabecera span {
+    align-self: end;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    margin-left: 8px;
+    font-size: 1.5rem;
+}
+
+.navLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.active button {
+    color: blue;
+    border-color: blue;
+    box-shadow: inset 0 0 10px blue;
+}
+
+.inactive button {
+    color: white;
+    border-color: white;
+}
+
+
+@media (max-width: 480px) {
+    .navLinks {
+        align-items: end;
+        gap: 10px;
+    }
+
+
+
+    .active button {
+        color: blue;
+        border-color: blue;
+        box-shadow: inset 0 0 10px blue;
+        width: 12%;
+        font-size: .6em;
+    }
+    
+    .inactive button {
+        color: white;
+        border-color: white;
+        width: 12%;
+        font-size: .6em;
+    }
+    
+}
